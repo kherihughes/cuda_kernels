@@ -1,0 +1,45 @@
+# Build and environments
+build/
+venv/
+__pycache__/
+*.pyc
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Results 
+results/*
+!results/.gitkeep
+
+# CUDA
+*.i
+*.ii
+*.gpu
+*.ptx
+*.cubin
+*.fatbin
+*.o
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Binaries
+vecadd*
+matmult*
+q[1-3]
+c[1-3]
+
+# Package files
+*.deb
+
+# Backup files
+*.bak
+*~
+
+# Results
+*.csv
+!program_output.csv
